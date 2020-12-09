@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""join this group forr help-- @GbotStoreSupport\n\n And also don't forget to fork this repo: <a href="https://github.com/gautamajay52/TorrentLeech-Gdrive">TorrentLeech-Gdrive</a>""", disable_web_page_preview=True)
+    await message.reply_text("""<b>Hɪ👋, Bᴇꜰᴏʀᴇ Usɪɴɢ Mʏ Sᴇʀᴠɪᴄᴇs Rᴇᴀᴅ Mʏ Cᴏᴍᴍᴀɴᴅs Tᴏ Oᴘᴇʀᴀᴛᴇ Mᴇ Pʀᴏᴘᴇʀʟʏ ➼ : (https://telegra.ph/𝐋𝐄𝐄𝐂𝐇-𝐁𝐎𝐓-𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒-11-06)</b>""", disable_web_page_preview=True)
 
 
 # async def rename_message_f(client, message):
