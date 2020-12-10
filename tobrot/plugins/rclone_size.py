@@ -14,7 +14,6 @@ from tobrot import (
 from pyrogram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
-    Message
 )
 
 
