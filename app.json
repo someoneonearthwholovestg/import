@@ -4,9 +4,9 @@
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/mr-U-I1/import.it",
-  "success_url": "https://github.com/mr-U-I1/import/tree/master",
-  "website": "https://github.com/mr-U-I1/import/blob/master/README.md",
+  "repository": "https://github.com/mr-U-I/import.git",
+  "success_url": "https://github.com/mr-U-I/import/tree/master",
+  "website": "https://github.com/mr-U-I/import/blob/master/README.md",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
