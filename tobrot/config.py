@@ -37,10 +37,16 @@ class Config(object):
     CUSTOM_FILE_NAME = os.environ.get("CUSTOM_FILE_NAME", "")
     LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech")
     YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
-    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
+    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "type = drive
+client_id = 617414999453-ads3n4r07r3jsuqm2ld7uuv6tvtf4gf6.apps.googleusercontent.com
+client_secret = ias_jADb6J4O-Om7pG0ZOnc7
+scope = drive
+root_folder_id =
+token = {"access_token":"ya29.a0AfH6SMCcmpfqDttM_tXWZSwbllQPWB8yopk7RyA92e9OsL7xY9BkM7BpnmcySf6XuL_WHngXDCI3pO24xNM2RgoaqhUOMvEP_1bSlvz1lV257LOUcsykBTd-yqEEZ6Er9IXboyDpYLyK2ZQT-8IOPBMrrf4DqGgG7iAqM67pHWs","token_type":"Bearer","refresh_token":"1//0gOm7Dk3KoxUFCgYIARAAGBASNwF-L9IrkN6KVTaqcuLDyGRJqk87TsAg1CV-sgigJ2n4F1RL81HMcLhlxmh-lPgF9AsANLSUJqA","expiry":"2020-12-10T14:56:49.501763797Z"}
+team_drive = 0AM_13IiFDgFsUk9PVA")
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "Mirror Bot")
     GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech")
-    INDEX_LINK = os.environ.get("INDEX_LINK", "")
+    INDEX_LINK = os.environ.get("INDEX_LINK", "https://td.thyviking.workers.dev/0:/Mirror%20Bot")
     TELEGRAM_LEECH_COMMAND_G = os.environ.get("TELEGRAM_LEECH_COMMAND_G", "tleech")
     CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel")
     GET_SIZE_G = os.environ.get("GET_SIZE_G", "getsize")
