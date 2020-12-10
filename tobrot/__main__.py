@@ -39,8 +39,7 @@ from tobrot import (
     UPLOAD_COMMAND
 )
 
-from pyrogram import Client, Filters
-from pyrogram.handlers import MessageHandler, CallbackQueryHandler
+from pyrogram import Client, Filters, MessageHandler, CallbackQueryHandler
 
 from tobrot.plugins.new_join_fn import new_join_f, help_message_f
 from tobrot.plugins.incoming_message_fn import rename_tg_file, incoming_message_f, incoming_youtube_dl_f, incoming_purge_message_f, incoming_gdrive_message_f, g_yt_playlist, g_clonee
